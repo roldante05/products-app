@@ -1,14 +1,14 @@
-# Proyecto Laravel con Vite, Tailwind CSS y Alpine.js
+# Proyecto Laravel con Vite, Tailwind CSS y JavaScript
 
-Este proyecto es una aplicación Laravel que utiliza Vite para la gestión de activos, Tailwind CSS para los estilos y Alpine.js para la interactividad en el frontend.
+Este proyecto es una aplicación Laravel que utiliza Vite para la gestión de activos, Tailwind CSS para los estilos y JavaScript para la interactividad en el frontend con AJAX.
 
 ## Tecnologías utilizadas
 
 - **Laravel**: Framework de PHP para el desarrollo de aplicaciones web.
 - **Vite**: Herramienta de construcción rápida para proyectos frontend modernos.
 - **Tailwind CSS**: Framework de CSS para crear interfaces de usuario personalizables y responsivas.
-- **Alpine.js**: Framework de JavaScript minimalista para añadir interactividad a las interfaces de usuario.
-- **Axios**: Biblioteca para realizar solicitudes HTTP desde el navegador.
+- **JavaScript**: Lenguaje de programación utilizado para añadir interactividad en el frontend.
+- **AJAX**: Técnica para realizar solicitudes asincrónicas al servidor.
 
 ## Requisitos
 
@@ -33,6 +33,7 @@ php artisan serve
 
 ## Iniciar Vite
 npm run dev
+
 
 
 
