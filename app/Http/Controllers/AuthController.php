@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Log;
 
 class AuthController extends Controller
 {
@@ -31,12 +32,14 @@ class AuthController extends Controller
                     'username' => $user['username'],
                     'role' => $user['role'],
                 ]]);
+                Log::info('User logged in:', session('user'));
                 return redirect('/products');
             }
         }
     
         return redirect('/login')->with('error', 'Invalid credentials');
     }
+    
 
     public function logout()
     {
