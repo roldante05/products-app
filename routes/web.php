@@ -32,5 +32,4 @@ Route::middleware([CheckUserSession::class])->group(function () {
         Route::post('/products/destroy/{id}', [ProductController::class, 'destroy'])->name('products.destroy');
     });
     
-    Route::get('/products', [ProductController::class, 'index'])->name('products.index');
 });
